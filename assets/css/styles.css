@@ -1,0 +1,54 @@
+.navbar-brand {
+  padding: 0 2rem;
+}
+
+.right-nav-item {
+  margin: 10px;
+}
+
+.hero-img {
+  width: 100%;
+  padding: 2rem;
+}
+
+.hero-container {
+  margin: 0 auto;
+}
+
+.hero-section {
+  padding: 0.1rem 4rem;
+  margin: 0 auto;
+}
+
+.hero-container h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  margin-top: 7rem;
+}
+
+.hero-container p {
+  margin-bottom: 4rem;
+  font-size: 1.3rem;
+}
+
+.hero-container button {
+  padding: 1rem 2rem;
+}
+
+.stamp-container {
+  margin-top: 7rem;
+}
+
+@media (min-width: 576px) {
+  .hero-container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 300px) {
+  .hero-container h1 {
+    font-size: 4rem;
+  }
+}
+
