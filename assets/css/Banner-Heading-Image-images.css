@@ -1,0 +1,39 @@
+.fit-cover {
+  object-fit: cover;
+}
+
+.hero-content {
+  background: #ffffff;
+}
+
+.hero-img {
+  width: 45%;
+}
+
+@media (min-width: 768px) {
+  .hero-img {
+    display: block;
+  }
+}
+
+@media (min-width: 300px) {
+  .hero-img {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero-content {
+    width: 50%;
+  }
+}
+
+h1 {
+}
+
+@media (min-width: 768px) {
+  .hero-content {
+    text-align: left;
+  }
+}
+
